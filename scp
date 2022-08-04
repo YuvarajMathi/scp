@@ -1,0 +1,133 @@
+Name
+Guidance
+Category
+Behavior
+Release Date
+Disallow deletion of log archive
+Mandatory	Audit logs	Prevention	November 13, 2019
+Disallow Changes to Encryption Configuration for Amazon S3 Buckets
+Elective	Audit logs	Prevention	April 8, 2021
+Disallow Changes to Logging Configuration for Amazon S3 Buckets
+Elective	Audit logs	Prevention	April 8, 2021
+Disallow Changes to Bucket Policy for Amazon S3 Buckets
+Elective	Monitoring	Prevention	April 8, 2021
+Detect public read access setting for log archive
+Mandatory	Audit logs	Detection	June 24, 2019
+Detect public write access setting for log archive
+Mandatory	Audit logs	Detection	June 24, 2019
+Disallow Changes to Lifecycle Configuration for Amazon S3 Buckets
+Elective	Audit logs	Prevention	April 8, 2021
+Detect whether public IP addresses for Amazon EC2 Auto Scaling are enabled through launch configurations
+Elective	Data Residency	Detection	November 30, 2021
+Disallow configuration changes to CloudTrail
+Mandatory	Audit logs	Prevention	June 24, 2019
+Integrate CloudTrail events with CloudWatch Logs
+Mandatory	Monitoring	Prevention	June 24, 2019
+Enable CloudTrail in all available regions
+Mandatory	Audit logs	Prevention	June 24, 2019
+Enable integrity validation for CloudTrail log file
+Mandatory	Audit logs	Prevention	June 24, 2019
+Disallow changes to Amazon CloudWatch set up by AWS Control Tower
+Mandatory	Control Tower Setup	Prevention	June 24, 2019
+Disallow deletion of AWS Config Aggregation Authorizations created by AWS Control Tower
+Mandatory	Control Tower Setup	Prevention	November 13, 2019
+Disallow changes to tags created by AWS Control Tower for AWS Config resources
+Mandatory	Control Tower Setup	Prevention	June 24, 2019
+Disallow configuration changes to AWS Config
+Mandatory	Audit logs	Prevention	June 24, 2019
+Enable AWS Config in all available regions
+Mandatory	Audit logs	Prevention	June 24, 2019
+Disallow changes to AWS Config Rules set up by AWS Control Tower
+Mandatory	Control Tower Setup	Prevention	June 24, 2019
+Disallow Changes to Encryption Configuration for AWS Control Tower Created S3 Buckets in Log Archive
+Mandatory	Audit logs	Prevention	April 8, 2021
+Disallow changes to lifecycle configuration for AWS Control Tower created Amazon S3 buckets in log archive
+Mandatory	Audit logs	Prevention	April 8, 2021
+Disallow changes to logging configuration for AWS Control Tower created Amazon S3 buckets in log archive
+Mandatory	Audit logs	Prevention	April 8, 2021
+Disallow changes to bucket policy for AWS Control Tower created Amazon S3 buckets in log archive
+Mandatory	Audit logs	Prevention	April 8, 2021
+Detect whether an account has AWS CloudTrail or CloudTrail Lake enabled.
+Strongly recommended	Monitoring	Detection	July 26, 2022
+Detect whether a shared account in the Security organizational unit has AWS CloudTrail or CloudTrail Lake enabled.
+Mandatory	Monitoring	Detection	July 26, 2022
+Disallow cross-region networking for Amazon EC2, Amazon CloudFront, and AWS Global Accelerator
+Elective	Data Residency	Prevention	November 30, 2021
+Disallow internet access for an Amazon VPC instance managed by a customer
+Elective	Data Residency	Prevention	November 30, 2021
+Disallow Amazon Virtual Private Network (VPN) connections
+Elective	Data Residency	Prevention	November 30, 2021
+Detect whether replication instances for AWS Database Migration Service are public
+Elective	Data Residency	Detection	November 30, 2021
+Detect whether Amazon EBS optimization is enabled for Amazon EC2 instances
+Strongly recommended	Operations	Detection	August 25, 2019
+Detect whether Amazon EBS snapshots are restorable by all AWS accounts
+Elective	Data Residency	Detection	November 30, 2021
+Detect whether any Amazon EC2 instance has an associated public IPv4 address
+Elective	Data Residency	Detection	November 30, 2021
+Detect whether Amazon EBS volumes are attached to Amazon EC2 instances
+Strongly recommended	Operations	Detection	August 25, 2019
+Detect whether an Amazon EKS endpoint is blocked from public access
+Elective	Data Residency	Detection	November 30, 2021
+Detect whether an Amazon OpenSearch Service domain is in Amazon VPC
+Elective	Data Residency	Detection	November 30, 2021
+Detect whether any Amazon EMR cluster master nodes have public IP addresses
+Elective	Data Residency	Detection	November 30, 2021
+Detect whether encryption is enabled for Amazon EBS volumes attached to Amazon EC2 instances
+Strongly recommended	Data security	Detection	June 24, 2019
+Disallow changes to AWS IAM roles set up by AWS Control Tower and AWS CloudFormation
+Mandatory	Control Tower Setup	Prevention	June 24, 2019
+Detect whether MFA is enabled for AWS IAM users
+Elective	IAM	Detection	August 25, 2019
+Disallow changes to AWS Lambda functions set up by AWS Control Tower
+Mandatory	Control Tower Setup	Prevention	June 24, 2019
+Detect whether the AWS Lambda function policy attached to the Lambda resource blocks public access
+Elective	Data Residency	Detection	November 30, 2021
+Disallow changes to Amazon CloudWatch Logs log groups set up by AWS Control Tower
+Mandatory	Audit logs	Prevention	November 13, 2019
+Detect whether MFA is enabled for AWS IAM users of the AWS Console
+Elective	IAM	Detection	August 25, 2019
+Detect whether public routes exist in the route table for an Internet Gateway (IGW)
+Elective	Data Residency	Detection	November 30, 2021
+Detect whether public access to Amazon RDS database instances is enabled
+Strongly recommended	Data security	Detection	August 25, 2019
+Detect whether public access to Amazon RDS database snapshots is enabled
+Strongly recommended	Data security	Detection	August 25, 2019
+Detect whether storage encryption is enabled for Amazon RDS database instances
+Strongly recommended	Data security	Detection	August 25, 2019
+Detect whether Amazon Redshift clusters are blocked from public access
+Elective	Data Residency	Detection	November 30, 2021
+Deny access to AWS based on the requested AWS Region
+Elective	Data Residency	Prevention	November 30, 2021
+Detect whether unrestricted incoming TCP traffic is allowed
+Strongly recommended	Network	Detection	June 24, 2019
+Detect whether unrestricted internet connection through SSH is allowed
+Strongly recommended	Network	Detection	June 24, 2019
+Disallow actions as a root user
+Strongly recommended	IAM	Prevention	September 5, 2019
+Disallow creation of access keys for the root user
+Strongly recommended	IAM	Prevention	September 5, 2019
+Disallow changes to replication configuration for Amazon S3 buckets
+Elective	Data security	Prevention	September 5, 2019
+Disallow delete actions on S3 buckets without MFA
+Elective	Data security	Prevention	September 5, 2019
+Detect whether MFA for the root user is enabled
+Strongly recommended	IAM	Detection	June 24, 2019
+Detect whether Amazon S3 settings to block public access are set as true for the account
+Elective	Data Residency	Detection	November 30, 2021
+Detect whether public read access to Amazon S3 buckets is allowed
+Strongly recommended	Data security	Detection	June 24, 2019
+Detect whether public write access to Amazon S3 buckets is allowed
+Strongly recommended	Data security	Detection	June 24, 2019
+Detect whether versioning for Amazon S3 buckets is enabled
+Elective	Data security	Detection	August 25, 2019
+Detect whether an Amazon SageMaker notebook instance allows direct internet access
+Elective	Data Residency	Detection	November 30, 2021
+Disallow changes to Amazon SNS set up by AWS Control Tower
+Mandatory	Control Tower Setup	Prevention	June 24, 2019
+Disallow changes to Amazon SNS subscriptions set up by AWS Control Tower
+Mandatory	Control Tower Setup	Prevention	June 24, 2019
+Detect whether AWS Systems Manager documents owned by the account are public
+Elective	Data Residency	Detection	November 30, 2021
+Detect whether any Amazon VPC subnets are assigned a public IP address
+Elective	Data Residency	Detection	November 30, 2021
